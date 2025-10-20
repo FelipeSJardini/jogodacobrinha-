@@ -1,0 +1,29 @@
+ body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #ffffff;
+    }
+    .tabuleiro {
+      display: grid;
+      grid-template-columns: repeat(4, 80px);
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .carta {
+      width: 80px;
+      height: 80px;
+      font-size: 2em;
+      background-color: #34db50;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .virada {
+      background-color: white;
+      color: #3498db;
+      border: 2px solid #34db50;
+    }
