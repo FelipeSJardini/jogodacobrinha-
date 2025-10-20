@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Jogo da Memória</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<title>Jogo da Cobrinha (Snake)</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Jogo da Memória</h1>
-  <p>Movimentos: <span id="movimentos">0</span></p>
-  <div class="tabuleiro" id="tabuleiro"></div>
-  <p id="mensagem"></p>
-  <button onclick="iniciarJogo()">Reiniciar</button>
-  <script src="script.js"></script>
+
+<h1>Jogo da Cobrinha (Snake)</h1>
+<div id="score">Pontuação: 0</div>
+<canvas id="gameCanvas" width="400" height="400"></canvas>
+<div id="game-over">Fim de jogo! Pressione Espaço para reiniciar.</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
